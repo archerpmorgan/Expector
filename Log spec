@@ -1,0 +1,24 @@
+Log spec
+
+log should be attached to each set of samples. The actual handling of this is done in config
+
+One log entry completed per run of Expector
+
+log should look like:
+
+Person:_______ Date/Time:_______ 
+expecting sample [sample name] in [well location]...
+sample [sample name] in [well location]
+.
+.
+.
+
+if complete, 
+process complete
+
+if aborted prior to completion
+say so
+
+consider:
+ - making a log note if a sample was scanned that is not in the sample set
+ - making a log note of all samples that were not expected if aborted before process complete.
